@@ -9,4 +9,4 @@ This app enables a user search for github users and it displays the user's detai
 
 Have Fun🎉🎉🎉
 
-* *Visit the site here* * -> [GitHub-Profile_Finder]()
+*Visit the site here* -> [GitHub-Profile_Finder](https://leahobot.github.io/github-profile-finder/)
