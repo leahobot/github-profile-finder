@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+      <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+                  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+                  crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+            <link rel="manifest" href="./favicon/site.webmanifest">
+            <link rel="stylesheet" href="./style.css">
+            <title>Github-Profile-Finder</title>
+      </head>
+
+      <body>
+            <nav class="navbar">
+                  <header><a href="./index.html">Github Profile Finder</a></header>
+            </nav>
+            <main class="main">
+                  <h1 class="header">
+                        Search profile
+                  </h1>
+                  <p class="text">
+                        Enter username of github users to view user profile and repositories
+                  </p>
+                  <div class="input-field">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" class="userName" placeholder="Enter Github username here..." required>
+                  </div>
+                  <input type="submit" value="Search" class="submit">
+                  <div class="profile"></div>
+            </main>
+
+            <footer>
+                  Profile-Finder &copy; 2022
+            </footer>
+
+            <script src="./ui.js"></script>
+            <script src="./github.js"></script>
+            <script src="./app.js"></script>
+      </body>
+
+</html>
